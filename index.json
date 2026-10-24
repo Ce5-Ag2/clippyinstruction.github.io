@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "materials": [
+    {
+      "id": "windows-wallpaper",
+      "title": "Зміна шпалер Windows 10",
+      "description": "Покрокова інструкція для зміни фону робочого столу.",
+      "keywords": [
+        "windows",
+        "wallpaper",
+        "шпалери",
+        "обої",
+        "фон",
+        "desktop"
+      ],
+      "file": "windows-wallpaper.md"
+    },
+    {
+      "id": "clarify-action",
+      "title": "Уточнення нечіткого запиту",
+      "description": "Коли Clippy має спочатку поставити уточнювальне запитання.",
+      "keywords": [
+        "уточнення",
+        "test",
+        "тест",
+        "запитання",
+        "ambiguous",
+        "unclear"
+      ],
+      "file": "clarify-action.md"
+    },
+    {
+      "id": "windows10-guide",
+      "title": "Посібник з Windows 10",
+      "description": "Тестова добірка інструкцій: шпалери, екран, звук, диспетчер завдань, мова та оновлення.",
+      "keywords": [
+        "windows 10",
+        "windows",
+        "win10",
+        "шпалери",
+        "дисплей",
+        "роздільна здатність",
+        "звук",
+        "гучність",
+        "диспетчер завдань",
+        "мова клавіатури",
+        "оновлення"
+      ],
+      "file": "windows10-guide.md"
+    }
+  ]
+}
