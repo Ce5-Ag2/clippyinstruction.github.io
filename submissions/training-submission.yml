@@ -1,0 +1,33 @@
+name: Запропонувати навчальний матеріал
+description: Запропонуйте інструкцію або приклад для бібліотеки Clippy
+title: "[Навчання]: "
+labels: [training-submission]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Назва матеріалу
+      placeholder: Наприклад, як змінити шпалери Windows
+    validations:
+      required: true
+  - type: textarea
+    id: keywords
+    attributes:
+      label: Ключові слова та приклади запитів
+      description: Додайте фрази, якими користувач може попросити про це.
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Інструкція для Clippy
+      description: Чіткі кроки, правила або очікувана відповідь.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Підтвердження
+      options:
+        - label: Матеріал не містить паролів, API-ключів або приватних даних.
+          required: true

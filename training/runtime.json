@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "overlay": {
+    "padding": 8,
+    "visibleMs": 1000,
+    "hiddenMs": 500,
+    "borderWidth": 3,
+    "fillOpacity": 0.5
+  },
+  "formulas": {
+    "left": "target.x - padding",
+    "top": "target.y - padding",
+    "width": "target.width + padding * 2",
+    "height": "target.height + padding * 2"
+  },
+  "limits": {
+    "padding": { "min": 0, "max": 80 },
+    "visibleMs": { "min": 100, "max": 10000 },
+    "hiddenMs": { "min": 0, "max": 10000 },
+    "borderWidth": { "min": 1, "max": 12 },
+    "fillOpacity": { "min": 0, "max": 0.8 }
+  }
+}
